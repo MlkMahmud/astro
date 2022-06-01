@@ -4,8 +4,8 @@ frontend:
     preBuild:
       commands:
         - nvm use 16
-        - mkdir public/app-tests
-        - aws s3 cp s3://dr-code-service-reports public/app-tests/ --recursive
+        - mkdir public
+        - aws s3 cp s3://dr-code-service-reports public --recursive
         - npm ci
     build:
       commands:
