@@ -1,0 +1,25 @@
+{
+  "name": "astro",
+  "description": "Testing AWS Amplify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MlkMahmud/astro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MlkMahmud/astro/issues"
+  },
+  "homepage": "https://github.com/MlkMahmud/astro#readme",
+  "dependencies": {
+    "astro": "^1.0.0-beta.38"
+  }
+}

@@ -1,0 +1,12 @@
+---
+import Layout from "../components/Layout.astro";
+const name = ['Malik', 'Mahmud'];
+---
+
+<Layout title="Home">
+  <ul>
+    {name.map((n) => (
+      <li>Hello {n}</li>
+    ))}
+  </ul>
+</Layout>
